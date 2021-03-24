@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="plainEditorStyle.css">
+    <script src="./plainEditor.js" type="text/javascript"></script>
+    <title>Demo</title>
+    <style>
+        .demo {
+            border-radius: 10px;
+            margin: 0 auto;
+            box-shadow: 0px 0px 33px -3px rgba(0,0,0,0.75);
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo">
+    </div>
+    <script>
+        plainEditor.init(document.querySelector('.demo'));
+    </script>
+</body>
+</html>
